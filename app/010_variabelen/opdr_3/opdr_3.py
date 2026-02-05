@@ -4,6 +4,6 @@
 
 # Hier komt je code...
 
-my_dict = ...
+my_dict = str("Willem van der broek,23 jaar,favoriete kleur blauw")
 
-print()
+print(my_dict)
