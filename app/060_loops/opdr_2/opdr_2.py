@@ -1,10 +1,6 @@
-# Opdracht 2 loops
-# Naam student:
-# Groep:
+getallen = []
 
-# Hier komt je code...
+for i in range(10, 51, 10):
+    getallen.append(i)
 
-# Hier start de for-loop
-
-my_list = []
-
+print(getallen)

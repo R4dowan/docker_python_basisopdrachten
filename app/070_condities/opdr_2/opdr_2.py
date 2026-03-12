@@ -6,7 +6,11 @@
 
 # Hier start de for-loop
 
-my_list = [43948, 878768, 38768, 87555, 765765]
+getallen = [43948, 878768, 38768, 87555, 765765]
+
+for g in getallen:
+    if g % 3 == 0:
+        print(g)
 
 # for...:
 #   if...:

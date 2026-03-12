@@ -11,3 +11,14 @@ def write_to_file(afile, atext):
 my_tekst = "Schrijf dit maar even in een bestandje"
 my_file = "test.txt"
 write_to_file(my_file, my_tekst)
+
+def write_to_file(bestandsnaam, tekst):
+    # Open het bestand in 'append' modus -> tekst wordt toegevoegd
+    with open(bestandsnaam, "a", encoding="utf-8") as f:
+        f.write(tekst + "\n")  # schrijf tekst + nieuwe regel
+
+
+# Voorbeeld van gebruik
+my_tekst = "Schrijf dit maar even in een bestandje"
+my_file = "test.txt"
+write_to_file(my_file, my_tekst)

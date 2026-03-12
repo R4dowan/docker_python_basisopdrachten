@@ -1,9 +1,9 @@
-# Opdracht 1 loops
-# Naam student:
-# Groep:
+# Maak een lege lijst
+lijst = []
 
-# Hier komt je code, maak gebruik van de input functie om de lengte van de rechthoekzijden van de driehoek op te vragen.
+# Vul de lijst met getallen van 1 t/m 10
+for i in range(1, 11):
+    lijst.append(i)
 
-# Hier start de for-loop....
-
-my_list = []
+# Print de lijst op het scherm
+print(lijst)
